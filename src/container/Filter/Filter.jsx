@@ -11,8 +11,8 @@ const Filter = () => {
   return (
     <>
       <button className='filter d-flex justify-center align-center' onClick={ShowDialog}>
-        <span>Filter</span>
         <img className='filter-icon' src={sliderConfigLogo} alt="" />
+        <span>Filter</span>
       </button>
       { dialogStatus === true ? <div className='filter-modal d-flex justify-center align-center'>
         <div className="modal">
