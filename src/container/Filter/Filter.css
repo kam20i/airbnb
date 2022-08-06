@@ -1,0 +1,32 @@
+.filter-modal {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(29, 29, 29, 0.37);
+    position: absolute;
+    z-index: 1000;
+}
+.modal {
+    width: 750px;
+    height: 90vh;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.modal-header {
+    width: 100%;
+    height:  70px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.modal-header > button {
+    width: 50px;
+    height: 50px;
+    font-size: large;
+}
+.modal-header > h3 {
+    margin: 0 auto;
+}
+.filter-icon {
+    width: 20px;
+    height: 20px;
+}

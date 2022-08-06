@@ -1,0 +1,42 @@
+footer 
+{
+    width: 100%;
+    height: 170px;
+    position: fixed;
+    z-index: 1 !important;
+    top: calc(100% - 180px);
+    padding-top: 10px;
+    bottom: 0;
+}
+.map-button {
+    width: 150px;
+    height: 50px;
+    color: #ffff;
+    background-color: #222222;
+    border-radius: 30px;
+}
+.map-button > a {
+    color: #ffff;
+}
+.map-icon {
+    margin-left: 5px;
+}
+.footer-list {
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #ffff;
+    color: rgb(34, 34, 34) !important;
+    border-top: 1px solid #dbdbdb;
+    
+}
+.footer-list-item
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer-list-item > a
+{
+    font-size: 11pt;
+}
